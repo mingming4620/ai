@@ -1,0 +1,13 @@
+강사 git : www.github.com/yisy0703/ai
+(0826.1_Java프로그램이란.docx 참조)
+1. 자바 인스톨 (https://www.oracle.com/java/technologies/downloads/?er=221886#jdk17-windows)
+   https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe 다운로드 후 실행(next클릭)
+
+2. 이클립스 (운영체제와 java버전에 따라서 다운로드)
+   https://www.eclipse.org/downloads/packages/release/2023-06/r 사이트에서 Eclipse IDE for Java Developers 다운로드
+
+3. 이클립스 다운로드 받은 파일을 압축 풀고, eclipes.ini 파일 마지막에 
+-Dfile.encoding=utf-8 추가
+
+4. eclipse.exe를 실행
+    
