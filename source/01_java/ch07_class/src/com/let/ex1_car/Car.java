@@ -3,8 +3,8 @@ package com.let.ex1_car;
 // Car myCar = new Car();
 // myCar.method명()
 public class Car {
-	String color; 
-	int    cc; // 배기량 1500 2000
+	private String color; 
+	private int    cc; // 배기량 1500 2000
 	private int    speed;
 	public void park() {
 		speed = 0;
@@ -24,7 +24,7 @@ public class Car {
 		// 객체의 인스턴스변수와 매개변수(지역변수)의 우선순위는 지역변수 높음
 		this.color = color;
 	}
-	String getColor() {
+	public String getColor() {
 		return color;
 	}
 	// cc (setter&getter)

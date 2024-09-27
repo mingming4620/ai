@@ -4,5 +4,5 @@
 /**
  * 
  */
-module cho7_class {
+module ch07_class {
 }

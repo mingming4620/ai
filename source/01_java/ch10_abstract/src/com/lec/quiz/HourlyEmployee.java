@@ -1,17 +1,17 @@
-package com.lec.quiz;
-//name, hoursWorked, moneyPerHour, computePay(),computeIncentive()
-public class HourlyEmployee extends Employee{
-	private int hourworked ;
+package com.lec.Quiz;
+//name, hoursWorked, moneyPerHour, computepay(asstract), computeIncenitive(final)
+public class HourlyEmployee extends Employee {
+	private int hourlyWorked;
 	private int moneyPerHour;
-	public HourlyEmployee(String name, int hourworked, int moneyperHour) {
+	
+	public HourlyEmployee(String name, int hourlyWorked, int moneyPerHour) {
 		super(name);
-		this.hourworked = hourworked;
+		this.hourlyWorked = hourlyWorked;
 		this.moneyPerHour = moneyPerHour;
-		
-	}	
+	}
 	@Override
 	public int computePay() {
-		return hourworked*moneyPerHour;
+		return hourlyWorked * moneyPerHour;
 	}
+	
 }
-

@@ -1,5 +1,5 @@
 package com.lec.ex7_customer;
-// Customer와 Staff의 공통점을 super 단에 
+// Customer와 Staff의 공통점을 super 단에
 public class Person {
 	private String name;
 	private String tel;
@@ -8,7 +8,7 @@ public class Person {
 		this.tel = tel;
 	}
 	public String infoString() {
-		return "[이름]" + name + "[전화]" + tel;
+		return "[이름]" + name +"[전화]" + tel;
 	}
 	public String getName() {
 		return name;

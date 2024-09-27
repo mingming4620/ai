@@ -1,0 +1,11 @@
+1. String에 사용할 method :
+- length(), indexOf(), lastIndexOf(), substring(), toUpperCase(), toLowerCase(), trim()
+- replace(), replaceAll(), equals(), 
+2. 날짜형들 : 
+- Date, Calendar(Calendar.getInstance()이용해서 생성), GregorianCalendar, SimpleDateFormat
+3. 수학관련 : 
+- Math.round(), 난수 발생(Math.random()이용, Random이용)
+4. Object :
+- toString(), equals() 재정의
+5. Wapper 클래스 : 
+- 기초데이터를 객체로 변형시키는 타입

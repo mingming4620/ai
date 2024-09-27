@@ -4,5 +4,5 @@
 /**
  * 
  */
-module ch01 {
+module cn01 {
 }

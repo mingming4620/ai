@@ -1,0 +1,10 @@
+자바 프로그래밍을 위한 설치 프로그램의 이해 개발환경을 만들기
+특징을 이해하고 환경에 따른 프로그램 설치의 장.단점 알기
+가상머신(Java Virtual Machine)
+장점- OS 독립적. 객체지향 언어로 개발과 유지보수가 효율적으로 진행. 2005년부터 HW 퍼프먼스 증가로 각광받음
+단점- 속도 저하(현재는 딜레이를 거의 못 느낌)
+Java 개발 환경 설정
+JDK(Java Development Kit) 자바 개발 키트
+IDE(Integrated Development Environment); 통합 개발 툴(편집기) ex. 메모장, eclipse, IntelliJ
+Java 환경 변수 설정
+bin/javac.exe(컴파일러) : *.java 파일을 JVM이 받아들일 수 있는 .class 파일로 변환시켜주는 프로그램. 매번 해당 경로에 들어가서 실행하기가 번거로우므로, 환경 변수 설정을 통해 어디서나 실행하도록 한다

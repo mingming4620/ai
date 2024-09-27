@@ -4,5 +4,5 @@
 /**
  * 
  */
-module ch10_abstract {
+module ch09_inheritance {
 }
